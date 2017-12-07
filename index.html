@@ -13,7 +13,9 @@
         <body>
             <div class="divclass">
                 <h2>扫雷对战</h2>
+                <p>鼠标左键点击方格打开该方格。鼠标右键点击标记为地雷（红色方块）。点击“单步扫雷”让AI判定下一步可以走什么样的操作并点开方格。</p>
                 <button onclick="auto_move()">AI单步扫雷</button>
+                <button onclick="location.replace('./index.html')">重新开始</button>
                 <canvas id="board" width="620" height="620"> 请检查您的浏览器是否支持HTML5。建议使用最新版Chrome浏览器阅览该应用。</canvas>
                 <div id="player"></div>
             </div>
